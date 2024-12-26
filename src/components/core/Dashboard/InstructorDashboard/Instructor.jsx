@@ -4,6 +4,7 @@ import { fetchInstructorCourses } from '../../../../services/operations/courseDe
 import { getInstructorData } from '../../../../services/operations/profileAPI';
 import InstructorChart from './InstructorChart';
 import { Link } from 'react-router-dom';
+import Spinner from '../../../common/Spinner';
 
 export default function Instructor() {
     const { token } = useSelector((state) => state.auth)
@@ -47,7 +48,7 @@ export default function Instructor() {
           </p>
         </div>
         {loading ? (
-          <div className="spinner"></div>
+          <Spinner/>
         ) : courses.length > 0 ? (
           <div>
             <div className="my-4 flex gap-y-5 items-center md:items-start flex-col md:flex-row h-fit space-x-4">

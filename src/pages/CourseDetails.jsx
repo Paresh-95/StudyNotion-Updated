@@ -15,6 +15,7 @@ import { fetchCourseDetails } from "../services/operations/courseDetailsAPI"
 import {buyCourse } from "../services/operations/studentFeaturesAPI"
 import GetAvgRating from "../utils/avgRating"
 import Error from "./Error"
+import Spinner from "../components/common/Spinner"
 
 function CourseDetails() {
   const { user } = useSelector((state) => state.profile)
@@ -79,7 +80,7 @@ function CourseDetails() {
   if (loading || !response) {
     return (
       <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center">
-        <div className="spinner"></div>
+        <Spinner/>
       </div>
     )
   }
@@ -120,7 +121,7 @@ function CourseDetails() {
     // console.log("payment loading")
     return (
       <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center">
-        <div className="spinner"></div>
+        <Spinner/>
       </div>
     )
   }

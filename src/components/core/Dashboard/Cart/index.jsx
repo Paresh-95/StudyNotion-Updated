@@ -2,6 +2,7 @@ import { useSelector } from "react-redux"
 
 import RenderCartCourses from "./RenderCartCourses"
 import RenderTotalAmount from "./RenderTotalAmount"
+import Spinner from "../../../common/Spinner"
 
 export default function Cart() {
   const { total, totalItems } = useSelector((state) => state.cart)
@@ -10,7 +11,7 @@ export default function Cart() {
   if (paymentLoading)
     return (
       <div className="flex h-screen items-center justify-center">
-        <div className="spinner"></div>
+        <Spinner/>
       </div>
     )
 
