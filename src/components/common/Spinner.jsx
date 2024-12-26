@@ -1,7 +1,7 @@
 import "../../App.css";
 const Spinner=()=>{
   return(
-    <div className="text-white spinner"></div>
+    <ClimbingBoxLoader color="#ffffff" />
   )
 }
 
