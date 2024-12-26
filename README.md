@@ -1,4 +1,4 @@
-# [StudyNotion - EdTech Platform](https://study-notion-seven-nu.vercel.app/)
+# [StudyNotion - EdTech Platform]
 
 StudyNotion is a fully functional EdTech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
 
@@ -70,7 +70,7 @@ The StudyNotion platform's API is designed following the REST architectural styl
 
 To install the StudyNotion platform, follow these steps:
 
-- Clone the repository: `git clone https://github.com/ash956901/StudyNotion`
+- Clone the repository: `git clone https://github.com/Paresh-95/StudyNotion-Updated.git`
 - Navigate to the project directory: `cd StudyNotion`
 - Install backend dependencies: `cd Server && npm install`
 - Install frontend dependencies: `cd .. && npm install`
@@ -104,25 +104,6 @@ To install the StudyNotion platform, follow these steps:
 - Run the dev script: `npm run dev`
 - Access the application in your browser at `http://localhost:3000`
 
-## Preview
-
-You can preview the StudyNotion platform at [https://studynotion-frontend.vercel.app/](https://study-notion-seven-nu.vercel.app/)
-
-[![Study Notion](https://i.ibb.co/qgS4v33/work1.png)](https://study-notion-seven-nu.vercel.app/)
-
-[![Study Notion](https://i.ibb.co/4WWK2DS/Screenshot-from-2024-05-19-00-19-45.png)](https://study-notion-seven-nu.vercel.app/)
-
-[![Study Notion](https://i.ibb.co/yScrnph/Screenshot-from-2024-05-19-00-19-53.png)](https://study-notion-seven-nu.vercel.app/)
-
-[![Study Notion](https://i.ibb.co/Fb72r3p/Screenshot-from-2024-05-19-00-20-49.png)](https://study-notion-seven-nu.vercel.app/)
-
-
-[![Study Notion](https://i.ibb.co/M7nd49Z/Screenshot-from-2024-05-19-00-20-06.png)](https://study-notion-seven-nu.vercel.app/)
-
-
-[![Study Notion](https://i.ibb.co/r28npyx/Screenshot-from-2024-05-19-00-21-29.png)](https://study-notion-seven-nu.vercel.app/)
-
-[![Study Notion](https://i.ibb.co/82jCqMy/Screenshot-from-2024-05-19-00-21-49.png)](https://study-notion-seven-nu.vercel.app/)
 
 ## Dependencies
 
@@ -173,10 +154,3 @@ The repository follows a structured folder organization:
 ## Contributing
 
 Contributions are welcome If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
-
-## Contact
-
-- Email: [ak956901@gmail.com](mailto:ak956901@gmail.com)
-- LinkedIn: [https://in.linkedin.com/in/ashutosh-kumar-170242189](https://in.linkedin.com/in/ashutosh-kumar-170242189)
-- Website: [Ashutosh Kumar](https://portfolio-five-rho-46.vercel.app/)
-
